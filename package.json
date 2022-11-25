@@ -8,7 +8,7 @@
     "lib/**/*"
   ],
   "scripts": {
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jestconfig.json",
     "prepare": "npm run build",
@@ -21,7 +21,11 @@
     "type": "git",
     "url": "git+https://github.com/ArsalanImamverdi/tyCalendar.git"
   },
-  "keywords": ["calendar", "typescript calendar", "javascript calendar"],
+  "keywords": [
+    "calendar",
+    "typescript calendar",
+    "javascript calendar"
+  ],
   "author": "MohamadArsalan Imamverdi",
   "license": "ISC",
   "bugs": {
